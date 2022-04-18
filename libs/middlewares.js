@@ -1,9 +1,12 @@
 import bodyParser from 'body-parser'
 import morgan from 'morgan'
+const ip = require('ip');
+
 
 module.exports = app => {
   app.set('port', process.env.PORT || 3000)
   app.set('json spaces', 4)
+  app.set('ip', require('ip').address())
 
   app.use(bodyParser.json())
   app.use(bodyParser.urlencoded({ extended: false }))
