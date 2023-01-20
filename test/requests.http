@@ -19,8 +19,8 @@ PUT http://localhost:3000/devices/e7ocoQ2n3
 Content-Type: application/json
 
 {
-  "system_name": "my-win-server",
-  "type": "WINDOWS_SERVER",
+  "system_name": "my-win",
+  "type": "WINDOWS",
   "hdd_capacity": "500"
 }
 

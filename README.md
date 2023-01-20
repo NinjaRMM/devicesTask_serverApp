@@ -32,13 +32,13 @@ DELETE /device/:id
 ```bash
 POST /devices
 ```
-> |  Request Body                                                                         | content-type          |
-> |:--------------------------------------------------------------------------------------|:----------------------|
-> | `{"system_name": "DESKTOP-START","type": "WINDOWS_WORKSTATION","hdd_capacity": "92"}` | `application/json`    |
+> |  Request Body                                                            | content-type          |
+> |:-------------------------------------------------------------------------|:----------------------|
+> | `{"system_name": "DESKTOP-HOME","type": "WINDOWS","hdd_capacity": "92"}` | `application/json`    |
 
 ```bash
 PUT /device/:id
 ```
-> |  Request Body                                                                         | content-type          |
-> |:--------------------------------------------------------------------------------------|:----------------------|
-> | `{"system_name": "DESKTOP-STOP","type": "WINDOWS_WORKSTATION","hdd_capacity": "99"}`  | `application/json`    |
+> |  Request Body                                                            | content-type          |
+> |:-------------------------------------------------------------------------|:----------------------|
+> | `{"system_name": "DESKTOP-OFFICE","type": "MAC","hdd_capacity": "500"}`  | `application/json`    |
